@@ -12,7 +12,7 @@ public class FirstTestCase {
     public static void main(String[] args) {
 
         /*
-        Reading the config file.
+        Reads the config file.
          */
         //------------------------------------------------------------
 
@@ -34,18 +34,35 @@ public class FirstTestCase {
         // Print a Log In message to the screen
         System.out.println("Successfully opened the website" + config.getString("urlKey"));
 
-        // Selecting the html element whose id is "lst-ib" then search for a word and close the browser
+        // Select the html element whose id is "lst-ib" then search a word and close the browser
         WebElement element = driver.findElement(By.id("lst-ib"));
         element.sendKeys(config.getString("wordKey"));
         element.submit();
 
-        // Looking for the search results in the first page
-
+        // Look for the search results in the first page and print the link name
+        System.out.println("\n\t- Method 1 -\n");
         List<WebElement> results = driver.findElements(By.className("rc"));
-
         System.out.println("Count of links: " + results.size());
 
-        // closing the driver
-        //driver.quit();
+        for (WebElement i : results){
+            WebElement aux = i.findElement(By.tagName("a"));
+            System.out.println(aux.getText());
+        }
+
+        // Other way to do the same thing
+        System.out.println("\n\t- Method 2 -\n");
+
+        results = driver.findElements(By.className("r"));
+        System.out.println("Count of links: " + results.size());
+
+
+        for (WebElement i : results){
+            WebElement aux = i.findElement(By.tagName("a"));
+            System.out.println(aux.getText());
+        }
+
+
+        // Close the driver
+        driver.quit();
     }
 }
