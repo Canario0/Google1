@@ -22,7 +22,7 @@ public class FirstTestCase {
 
 
         System.setProperty("webdriver.chrome.driver", config.getString("webDriverKey"));
-        // Create a new instance of the Firefox driver
+        // Create a new instance of the Chrome driver
         WebDriver driver = new ChromeDriver();
 
         // Maximize the window and wait until the browser is fully loaded
@@ -59,6 +59,17 @@ public class FirstTestCase {
         for (WebElement i : results){
             WebElement aux = i.findElement(By.tagName("a"));
             System.out.println(aux.getText());
+        }
+
+        // Other way to do the same thing this time with xpath
+        System.out.println("\n\t- Method 3 -\n");
+
+        results = driver.findElements(By.xpath("//div[@class='rc']//a"));
+        System.out.println("Count of links: " + results.size());
+
+
+        for (WebElement i : results){
+            System.out.println(i.getText());
         }
 
 
