@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Search cucumber",
+        "description": "",
+        "id": "google-search;search-cucumber",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5671615372,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "That I have enter to the Google search page",
+            "match": {
+              "location": "GoogleSearchStepsDefinitions.enterGoogleSearch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1110868032,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for \"cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cucumber",
+                  "offset": 14
+                }
+              ],
+              "location": "GoogleSearchStepsDefinitions.iSearchFor(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62596542,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get more than 1 link",
+            "match": {
+              "location": "GoogleSearchStepsDefinitions.iShouldGetMoreThanOneLink()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "  \u0027When I go to google search page and i search for a cucumber.\n  I expect to get 1 or more links.\u0027",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/GoogleSearch.feature",
+    "tags": []
+  }
+]

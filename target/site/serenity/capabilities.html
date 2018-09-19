@@ -5,20 +5,20 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Requirements</title>
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
@@ -49,13 +49,13 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0],
+                ['Passing', 1],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0],
                 ['Compromised',  0],
-                ['Untested',  1],
+                ['Untested',  0],
             ]
         ], {
             gridPadding: {top: 0, bottom: 38, left: 0, right: 0},
@@ -82,13 +82,13 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 requirements tested successfully'},
+                {label: '1 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
                 {label: '0} requirements compromised'},
-                {label: '1} requirements untested'},
+                {label: '0} requirements untested'},
             ]
         });
         // Results table
@@ -176,11 +176,8 @@
         <li class="active">
             <a href="#"><i class="fa fa-book"></i> Requirements</a>
         </li>
-        <li >
-            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
-        </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated </span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-09-2018 17:28</span>
     <br style="clear:left"/>
 </div>
 
@@ -190,6 +187,7 @@
     <div id="results-dashboard">
         <div class="middlb">
             <div class="table">
+
 
                 <div id="requirements-summary">
                     <div id="coverage_pie_chart"
@@ -206,26 +204,15 @@
                                         <th>Fail&nbsp;<i class="icon-thumbs-down"></i></th>
                                         <th>Pending&nbsp;<i class="icon-calendar"></i></th>
                                         <th>Ignored&nbsp;<i class="icon-ban-circle"></i></th>
-                                            <th>Untested&nbsp;<i class="icon-question"></i></th>
                                     </tr>
                                 </head>
                                 <body>
-                                    <tr>
-                                        <td class="summary-leading-column"><a
-                                                href="#requirements-tabs">Features</a></td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                            <td>1</td>
-                                    </tr>
 
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
                                         (tests)</a></td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>1</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
@@ -255,8 +242,8 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>0</td>
-            <td>0 (0%)</td>
+            <td>1</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
@@ -271,15 +258,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>0</td>
-            <td>0 (0%)</td>
+            <td>1</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">0 seconds</td>
+                <td colspan="5">7 seconds</td>
         </tr>
         </body>
     </table>
@@ -288,159 +275,55 @@
                 </div>
                 <div class="clr"></div>
                 <div id="requirements-tabs">
-                        <ul>
-                                <li><a href="#tabs-1">
-                                    Features (1)
-                                </a></li>
-                        </ul>
-                        <div id="tabs-1" class="capabilities-table">
-                            <div id="tabs-1" class="capabilities-table">
-
-
-<div id="req_list_tests" class="table">
-    <div class="test-results">
-        <table id="req-results-table">
-            <thead>
-            <tr>
-                <th width="30" class="test-results-heading">&nbsp;</th>
-                <th width="65" class="test-results-heading">ID</th>
-                <th width="525" class="test-results-heading">Feature</th>
-                <th class="test-results-heading" width="75px">Automated<br/>Tests</th>
-                    <th class="test-results-heading" width="75px">Manual<br/>Tests</th>
-
-                <th width="125px" class="test-results-heading">Test Results</th>
-
-            </tr>
-            <tbody>
-
-
-
-                <tr class="test-SUCCESS requirementRow">
-                    <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                        <span style="display:none">2</span>
-                    </td>
-                    <td class="cardNumber requirementRowCell"></td>
-
-                    <td class="SUCCESS-text requirementRowCell">
-                        <a href="javaScript:void(0)" class="read-more-link">
-                            <img src="images/plus.png" height="16"/></a>
-                        <span class="requirementName"><a
-                                href="cd736d6ab2c77f3e503fff9dfff64e318198c018c49b6bdff50e001d45ffb1ed.html">Google search</a></span>
-
-                        <div class="requirementNarrative read-more-text">'When I go to google search page and i search for a cucumber.
-I expect to get 1 or more links.'</div>
-                    </td>
-
-
-                    <td class="greentext highlighted-value requirementRowCell">0</td>
-<!--
-                    <td class="greentext requirementRowCell">0</td>
-                    <td class="bluetext requirementRowCell">0</td>
-                    <td class="redtext requirementRowCell">0</td>
-                    <td class="lightorangetext requirementRowCell">0</td>
-                    <td class="violettext requirementRowCell">0</td>
--->
-                        <td class="greentext highlighted-value requirementRowCell">0</td>
-<!--
-                        <td class="greentext requirementRowCell">0</td>
-                        <td class="bluetext requirementRowCell">0</td>
-                        <td class="redtext requirementRowCell">0</td>
-                        <td class="lightorangetext requirementRowCell">0</td>
-                        -->
-
-                    <td width="125px" class="lightgreentext requirementRowCell">
-
-
 <table>
     <tr>
-        <td width="40px">
-            <div class="small">0%</div>
-        </td>
-        <td width="125px">
-            <div class="percentagebar"
-                 title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                 style="width: 125px;">
-                <div class="pendingbar"
-                     title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                     style="width: 0px;">
-                    <div class="ignoredbar"
-                         style="width: 0px;"
-                         title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                        <div class="compromisedbar"
-                             style="width: 0px;"
-                             title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                            <div class="errorbar"
-                                 style="width: 0px;"
-                                 title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                <div class="failingbar"
-                                     style="width: 0px;"
-                                     title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                    <div class="passingbar"
-                                         style="width: 0px;"
-                                         title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
+        <td>
+            <div><h3>Acceptance Criteria</h3></div>
+            <div id="test_list_tests" class="table">
+                <div class="test-results">
+                    <table id="test-results-table">
+                        <thead>
+                        <tr>
+                            <th width="50" class="test-results-heading">&nbsp;</th>
+                            <th width="%" class="test-results-heading">Tests</th>
+                            <th width="70" class="test-results-heading">Steps</th>
+
+                            <th width="100" class="test-results-heading">Started</th>
+                            <th width="100" class="test-results-heading">Took<br>(secs)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="1fe2cbd79f828bf67db6ac13509be2a6e0a08a484f6ccdc67f4c1fe5a3405c5e.html" class="ellipsis"
+                                           title="Search cucumber ">
+                                            Search cucumber
+                                                <span class="related-issue-title"></span>
+                                        </a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">6</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2018-09-19 17:28:06">17:28:06</td>
+
+                                <td class="SUCCESS-text">7.33</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </td>
     </tr>
 </table>
-                    </td>
-
-                </tr>
-            </tbody>
-        </table>
-    </div>
 </div>
-
-                            </div>
-                        </div>
                 </div>
             </div>
         </div>
@@ -449,7 +332,7 @@ I expect to get 1 or more links.'</div>
 </div>
 </div>
 <div id="bottomfooter">
-    <span class="version">Serenity BDD version 1.8.1</span>
+    <span class="version">Serenity BDD version 1.9.9</span>
 </div>
 </body>
 </html>
