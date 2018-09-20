@@ -7,24 +7,26 @@
     <list default="true" id="3f5bdd17-8710-437d-b074-f4b6b91bf3b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/pageObjects/GoogleMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/pageObjects/GoogleSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/steps/serenity/GoogleSearchSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/steps/serenity/GoogleSearchSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GoogleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/GoogleSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-b864880ca58e30ec2e3ebf863634a7143fe98436a95a5235a1f8ee0d1e6b28cd.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/b864880ca58e30ec2e3ebf863634a7143fe98436a95a5235a1f8ee0d1e6b28cd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/b864880ca58e30ec2e3ebf863634a7143fe98436a95a5235a1f8ee0d1e6b28cd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-json-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-json-report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/03b5d5278e4a7f1eb029fe3389e9407d89942ce6988b725bd7214e93fc59e40d.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/03b5d5278e4a7f1eb029fe3389e9407d89942ce6988b725bd7214e93fc59e40d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0c8aa8d94608bfc0974ed6f56d991b162c94b28576c603c3a991d1654b689d10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0c8aa8d94608bfc0974ed6f56d991b162c94b28576c603c3a991d1654b689d10.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0c8aa8d94608bfc0974ed6f56d991b162c94b28576c603c3a991d1654b689d10.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0c8aa8d94608bfc0974ed6f56d991b162c94b28576c603c3a991d1654b689d10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1fe2cbd79f828bf67db6ac13509be2a6e0a08a484f6ccdc67f4c1fe5a3405c5e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1fe2cbd79f828bf67db6ac13509be2a6e0a08a484f6ccdc67f4c1fe5a3405c5e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1fe2cbd79f828bf67db6ac13509be2a6e0a08a484f6ccdc67f4c1fe5a3405c5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1fe2cbd79f828bf67db6ac13509be2a6e0a08a484f6ccdc67f4c1fe5a3405c5e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4ba76f9788e578362faf7e22e8be079915eef2c74562691646b401fe8e043c29.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4ba76f9788e578362faf7e22e8be079915eef2c74562691646b401fe8e043c29.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1fe2cbd79f828bf67db6ac13509be2a6e0a08a484f6ccdc67f4c1fe5a3405c5e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1fe2cbd79f828bf67db6ac13509be2a6e0a08a484f6ccdc67f4c1fe5a3405c5e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bf12a5d34817418a15900096cb60ee1580a81f985b49be3754be95b52f7d9119.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bf12a5d34817418a15900096cb60ee1580a81f985b49be3754be95b52f7d9119.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bf12a5d34817418a15900096cb60ee1580a81f985b49be3754be95b52f7d9119.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bf12a5d34817418a15900096cb60ee1580a81f985b49be3754be95b52f7d9119.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/cd736d6ab2c77f3e503fff9dfff64e318198c018c49b6bdff50e001d45ffb1ed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/cd736d6ab2c77f3e503fff9dfff64e318198c018c49b6bdff50e001d45ffb1ed.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/cd736d6ab2c77f3e503fff9dfff64e318198c018c49b6bdff50e001d45ffb1ed.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/cd736d6ab2c77f3e503fff9dfff64e318198c018c49b6bdff50e001d45ffb1ed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/css/core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/arrows.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
     </list>
@@ -84,7 +86,8 @@
     <session id="980435240">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
@@ -95,14 +98,14 @@
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bat" value="1" />
           <entry key="feature" value="12" />
-          <entry key="gradle" value="11" />
+          <entry key="gradle" value="12" />
           <entry key="gradlew" value="1" />
           <entry key="html" value="2" />
           <entry key="java" value="26" />
@@ -113,7 +116,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Cucumber" value="12" />
-          <entry key="Groovy" value="11" />
+          <entry key="Groovy" value="12" />
           <entry key="HTML" value="2" />
           <entry key="JAVA" value="26" />
           <entry key="PLAIN_TEXT" value="4" />
@@ -124,7 +127,7 @@
         <counts>
           <entry key="dummy" value="31" />
           <entry key="feature" value="689" />
-          <entry key="gradle" value="304" />
+          <entry key="gradle" value="307" />
           <entry key="java" value="4924" />
           <entry key="properties" value="215" />
           <entry key="txt" value="145" />
@@ -133,7 +136,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="689" />
-          <entry key="Groovy" value="304" />
+          <entry key="Groovy" value="307" />
           <entry key="JAVA" value="4924" />
           <entry key="PLAIN_TEXT" value="176" />
           <entry key="Properties" value="215" />
@@ -142,7 +145,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -371,9 +387,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6148129482400" />
+        <entry key="$PROJECT_DIR$" value="6148201005638" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2464845357" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1957992735" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2160978801" />
       </map>
@@ -902,11 +918,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1928" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -976,6 +992,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Google1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Google1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Google1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Google1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Google1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Google1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -983,7 +1017,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537372303432" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537442502657" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ryanair" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1140,9 +1174,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__GoogleSearch - 2018.09.19 at 16h 26m 19s.xml">
-      <configuration name="Feature: GoogleSearch" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__GoogleSearch - 2018.09.19 at 16h 28m 04s.xml">
       <configuration name="Feature: GoogleSearch" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -1170,6 +1201,9 @@
     <history-entry file="RunTest - 2018.09.19 at 17h 28m 18s.xml">
       <configuration name="RunTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="RunTest - 2018.09.20 at 13h 20m 36s.xml">
+      <configuration name="RunTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1181,9 +1215,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48850575" visible="true" weight="0.16950959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48850575" visible="true" weight="0.17170954" />
       <window_info id="Structure" order="1" sideWeight="0.5114943" side_tool="true" weight="0.22617246" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1192,7 +1226,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6824713" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6819672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41379312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1265,11 +1299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1277,11 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1306,9 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,11 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,22 +1357,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="6" lean-forward="true" selection-end-line="56" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/GoogleMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
